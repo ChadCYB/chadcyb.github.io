@@ -1,15 +1,11 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
-
+<!DOCTYPE html>
 <html>
-
 <head>
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
     <title>Site Maintenance</title>
     <style type="text/css">
-
       @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
-
+      
       *{
           margin: 0px;
           padding: 0px;
@@ -21,12 +17,10 @@
           font-family: 'Exo', sans-serif;
       }
 
-
       .context {
           width: 100%;
           position: absolute;
           top:50vh;
-
       }
 
       .context h1{
@@ -35,14 +29,24 @@
           font-size: 50px;
       }
 
-
       .area{
-          background: #4e54c8;  
-          background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+          background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+          background-size: 400% 400%;
+	  animation: gradientBG 15s ease infinite;
           width: 100%;
           height:100vh;
-
-
+      }
+      
+      @keyframes gradientBG {
+          0% {
+                background-position: 0% 50%;
+          }
+          50% {
+                background-position: 100% 50%;
+          }
+          100% {
+                background-position: 0% 50%;
+          }
       }
 
       .circles{
@@ -72,7 +76,6 @@
           height: 80px;
           animation-delay: 0s;
       }
-
 
       .circles li:nth-child(2){
           left: 10%;
@@ -143,22 +146,19 @@
       }
 
       @keyframes animate {
-
           0%{
               transform: translateY(0) rotate(0deg);
               opacity: 1;
               border-radius: 0;
           }
-
           100%{
               transform: translateY(-1000px) rotate(720deg);
               opacity: 0;
               border-radius: 50%;
           }
-
       }
-      
     </style>
+    
     <script>
     var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
@@ -169,38 +169,30 @@
         this.tick();
         this.isDeleting = false;
     };
-
     TxtType.prototype.tick = function() {
         var i = this.loopNum % this.toRotate.length;
         var fullTxt = this.toRotate[i];
-
         if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
         } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
         }
-
         this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
         var that = this;
         var delta = 200 - Math.random() * 100;
-
         if (this.isDeleting) { delta /= 2; }
-
         if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
+            delta = this.period;
+            this.isDeleting = true;
         } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
+            this.isDeleting = false;
+            this.loopNum++;
+            delta = 500;
         }
-
         setTimeout(function() {
-        that.tick();
+            that.tick();
         }, delta);
     };
-
     window.onload = function() {
         var elements = document.getElementsByClassName('typewrite');
         for (var i=0; i<elements.length; i++) {
@@ -210,7 +202,6 @@
               new TxtType(elements[i], JSON.parse(toRotate), period);
             }
         }
-        // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
@@ -221,30 +212,37 @@
 </head>
 <body>
   <div class="context">
-    <h1>
-    <a href="" class="typewrite" data-period="2000" 
+    <h1><a href="" class="typewrite" data-period="2000" 
        data-type='[ "This site is down for maintenance.", 
-                    "Sorry for the inconvenience.", 
-                    "We’ll be back online shortly!"]'>
+                    "We’ll be back online shortly!",
+                    "網站正在維護中。",
+                    "我們將盡快上線！",
+                    "このサイトはメンテナンスのためダウンしています。",
+                    "すぐにオンラインに戻ります！",
+                    "이 사이트는 유지 관리를 위해 다운되었습니다.",
+                    "나는 곧 온라인으로 돌아올 것이다!",
+                    "Este sitio está inactivo debido a mantenimiento.",
+                    "Volveremos a estar en línea pronto!",
+                    "Ce site est inactif pour des raisons de maintenance.",
+                    "Nous serons bientôt de nouveau en ligne!",
+                    "Deze site is niet beschikbaar vanwege onderhoud.",
+                    "Ik ben snel weer online!",
+                    "Этот сайт закрыт на техническое обслуживание.",
+                    "Я скоро вернусь онлайн!",
+                    "هذه الصفحة مغلقة للصيانة.",
+                    "سنعود قريبا عبر الإنترنت!"
+                  ]'>
       <span class="wrap"></span>
-    </a>
-    </h1>
+    </a></h1>
   </div>
-
-
-  <div class="area" >
+  <div class="area">
     <ul class="circles">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li></li> <li></li>
+      <li></li> <li></li>
+      <li></li> <li></li>
+      <li></li> <li></li>
+      <li></li> <li></li>
     </ul>
-  </div >
+  </div>
 </body>
 </html>
