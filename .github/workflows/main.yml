@@ -15,12 +15,12 @@ jobs:
         npm install
         npm run build
 
-    - name: Build and Deploy 🚀
+    - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@master
       with:
-        token: ${{ secrets.ACCESS_TOKEN }}
         branch: gh-pages
         folder: public
+        token: ${{ secrets.ACCESS_TOKEN }}
         clean: true
         clean-exclude: |
               CNAME
