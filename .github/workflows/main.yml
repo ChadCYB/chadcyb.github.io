@@ -12,12 +12,11 @@ jobs:
 
     - name: Build and Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@4.0.0
-      env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: public
-          BUILD_SCRIPT: yarn install && yarn build
       with:
+        token: ${{ secrets.ACCESS_TOKEN }}
+        branch: gh-pages
+        folder: public
+        build_script: yarn install && yarn build
         clean: true
         clean-exclude: |
               CNAME
