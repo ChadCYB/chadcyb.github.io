@@ -10,17 +10,14 @@ jobs:
     - name: Checkout 🛎️
       uses: actions/checkout@master
 
-    - name: Install and Build 🔧
-      run: |
-        npm install
-        npm run build
-
-    - name: Deploy 🚀
+    - name: Build and Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@master
+      env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: public
+          BUILD_SCRIPT: yarn install && yarn build
       with:
-        branch: gh-pages
-        folder: public
-        token: ${{ secrets.ACCESS_TOKEN }}
         clean: true
         clean-exclude: |
               CNAME
