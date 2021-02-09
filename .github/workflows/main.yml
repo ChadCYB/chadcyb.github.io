@@ -22,7 +22,3 @@ jobs:
         token: ${{ secrets.ACCESS_TOKEN }}
         branch: gh-pages
         folder: public
-        clean: true
-        clean-exclude: |
-              CNAME
-              README.md
