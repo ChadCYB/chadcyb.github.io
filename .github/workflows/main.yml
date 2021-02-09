@@ -1,4 +1,4 @@
-name: github pages
+﻿name: github pages
 on:
   push:
     branches:
@@ -12,8 +12,12 @@ jobs:
 
     - name: Build and Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@master
-      env:
+      with:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
         FOLDER: public
         BUILD_SCRIPT: npm install && npm run build
+        clean: true
+        clean-exclude: |
+              CNAME
+              README.md
