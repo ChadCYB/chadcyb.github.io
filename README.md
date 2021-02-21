@@ -7,18 +7,18 @@ bgImageStyle: {
 }
 isShowTitleInHome: true
 meta:
-  - name: og:title
+  - property: og:title
     content: CYB Note
-  - name: twitter:title
+  - property: twitter:title
     content: CYB Note
-  - name: og:type
+  - property: og:type
     content: article
-  - name: og:url
+  - property: og:url
     content: https://cyb.tw
-  - name: og:description
+  - property: og:description
     content: Tech | Code | Travel x Notes
-  - name: og:image
+  - property: og:image
     content: https://cyb.tw/bg.jpg
-  - name: og:article:author
+  - property: og:article:author
     content: CYB
 ---
