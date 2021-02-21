@@ -8,10 +8,10 @@ categories:
  - Code
 publish: True
 meta:
-  - name: description
-    content: Here's the way to get the x-forward-for head
+  - property: og:description
+    content: Here's the way to get the x-forward-for head...
   - property: og:image
-    content: https://i.imgur.com/lgGt6as.jpg
+    content: https://i.imgur.com/3z58oVQ.jpg
 ---
 
 ![](https://i.imgur.com/3z58oVQ.jpg)

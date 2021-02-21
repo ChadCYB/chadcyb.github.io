@@ -9,8 +9,14 @@ tags:
 categories:
  - Tech
 publish: True
+meta:
+  - property: og:description
+    content: Here is a list that explains what each column means.
+  - property: og:image
+    content: https://upload.wikimedia.org/wikipedia/commons/b/b1/Htop.png
 ---
-![htop](https://upload.wikimedia.org/wikipedia/commons/b/b1/Htop.png)
+
+![](https://upload.wikimedia.org/wikipedia/commons/b/b1/Htop.png)
 
 ## htop columns meaning
 

@@ -10,10 +10,16 @@ tags:
 categories:
  - Tech
 publish: True
+meta:
+  - property: og:description
+    content: This is a note about how I setup my new mac's terminal environment.
+  - property: og:image
+    content: https://i.imgur.com/a0JnU5h.png
 ---
 
 ![](https://i.imgur.com/a0JnU5h.png)
 
+This is a note about how I setup my new mac's terminal environment:
 ## Powerline font
 Install [nerd-font](https://github.com/ryanoasis/nerd-fonts) or  [powerline font](https://github.com/powerline/fonts).
 - Nerd-font

@@ -10,7 +10,7 @@ categories:
 publish: True
 meta:
   - property: og:description
-    content: This article will help you to create binary file of your shell script, so no one can see the source code of your script and we can use them as a command.
+    content: This article will help you to create binary file of your shell script...
   - property: og:image
     content: https://i.imgur.com/lgGt6as.jpg
 ---

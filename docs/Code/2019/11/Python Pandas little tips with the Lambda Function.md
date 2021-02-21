@@ -7,6 +7,11 @@ tags:
 categories:
  - Code
 publish: True
+meta:
+  - property: og:description
+    content: Pandas is a useful tool for data science because we can use this tool to analyze...
+  - property: og:image
+    content: https://i.imgur.com/Vf7zQPb.png
 ---
 
 ![](https://i.imgur.com/Vf7zQPb.png)

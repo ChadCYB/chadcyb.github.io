@@ -9,6 +9,11 @@ tags:
 categories:
  - Tech
 publish: True
+meta:
+  - property: og:description
+    content: OS X El Capitan and later includes security technology that helps protect your Mac from malicious software.
+  - property: og:image
+    content: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/OS_X_security_layers.svg/640px-OS_X_security_layers.svg.png
 ---
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/OS_X_security_layers.svg/640px-OS_X_security_layers.svg.png)
