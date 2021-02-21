@@ -12,7 +12,7 @@ publish: True
 ![](https://i.imgur.com/3z58oVQ.jpg)
 
 Here's the way to get the x-forward-for head
-```javascript=
+``` javascript
 var ip = req.headers['x-forward-for']
 ```
 **make sure all the keyword is lower case!!** It took me half a day to find this mistake. 

@@ -8,6 +8,13 @@ tags:
 categories:
  - Code
 publish: True
+meta:
+#   - name: og:title
+#     content: Convert a shell script into an executable binary
+#   - name: description
+#     content: hello
+  - name: og:image
+    content: https://i.imgur.com/lgGt6as.jpg
 ---
 
 

@@ -3,7 +3,7 @@ title: "Mac terminal environment setup - zsh + Powerline + tmux"
 date: 2020-11-15
 sidebar: 'auto'
 tags:
- - mac
+ - Mac
  - shell
  - tmux
  - zsh
