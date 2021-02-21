@@ -1,6 +1,6 @@
 ﻿---
 title: Convert a shell script into an executable binary
-date: 2020-10-28
+date: 2019-10-28
 sidebar: 'auto'
 tags:
  - Linux
@@ -8,11 +8,16 @@ tags:
 categories:
  - Code
 publish: True
+meta:
+  - property: og:description
+    content: This article will help you to create binary file of your shell script...
+  - property: og:image
+    content: https://i.imgur.com/lgGt6as.jpg
 ---
 
 
 ::: tip Introduction
-This article will help you to create binary file of your shell script, so no one can see the source code of your script and we can use them as a command.  
+This article will help you to create binary file of your shell script, so no one can see the source code of your script and we can use them as a command.
   
 To create binary file from a script we use SHC compiler written by [Francisco Javier Rosales García](http://www.datsi.fi.upm.es/~frosal/).  
 :::
@@ -24,8 +29,8 @@ To create binary file from a script we use SHC compiler written by [Francisco Ja
 ### 1. Download shc and install it
 ``` bash
 $ wget http://www.datsi.fi.upm.es/~frosal/sources/shc-3.8.9.tgz
-$ tar xvfz shc-3.8.7.tgz
-$ cd shc-3.8.7
+$ tar xvfz shc-3.8.9.tgz
+$ cd shc-3.8.9
 $ make
 ```
 ### 2. Verify that shc is installed properly.

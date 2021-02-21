@@ -1,6 +1,6 @@
 ﻿---
 title: "Problem solve: UniFi USG firmware upgrade failed"
-date: 2020-10-15
+date: 2019-10-15
 sidebar: 'auto'
 tags:
  - Network
@@ -8,6 +8,11 @@ tags:
 categories:
  - Tech
 publish: True
+meta:
+  - property: og:description
+    content: I upgraded the wifi equipment and replaced it with the UniFi Series products a few days...
+  - property: og:image
+    content: https://i.imgur.com/Pe2MAgv.jpg
 ---
 
 ![](https://i.imgur.com/Pe2MAgv.jpg)
