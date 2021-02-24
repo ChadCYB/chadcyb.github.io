@@ -18,6 +18,7 @@ meta:
 
 ## Pandas
 Pandas is a useful tool for data science because we can use this tool to analyze, visualize & manipulate data stored within data sets, or in coding terms, within data frames. 
+
 ## Python Lambda 
 - A lambda function is a small anonymous function. 
 - A lambda function can take any number of arguments, but can only have one expression.
@@ -28,5 +29,6 @@ df = pd.DataFrame({'height' : x})
 df['inch'] = df['height'].apply(lambda x: x/2.54) 
 df 
 ``` 
-## Reference 
+
+## References 
 - [https://www.w3schools.com/python/python_lambda.asp](https://www.w3schools.com/python/python_lambda.asp)

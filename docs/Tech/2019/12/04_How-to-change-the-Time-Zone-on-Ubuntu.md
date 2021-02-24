@@ -3,8 +3,8 @@ title: "How to change the timezone on Ubuntu"
 date: 2019-12-04
 sidebar: 'auto'
 tags:
- - Linux
  - Ubuntu
+ - Linux
 categories:
  - Tech
 publish: True
@@ -36,5 +36,6 @@ timedatectl list-timezones
 sudo timedatectl set-timezone Asia/Taipei
 timedatectl
 ```
-## Reference:
+
+## References:
 - [how to set or change timezone in linux](https://linuxize.com/post/how-to-set-or-change-timezone-in-linux/)

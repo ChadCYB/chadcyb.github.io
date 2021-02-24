@@ -15,7 +15,6 @@ meta:
     content: https://i.imgur.com/lgGt6as.jpg
 ---
 
-
 ::: tip Introduction
 This article will help you to create binary file of your shell script, so no one can see the source code of your script and we can use them as a command.
   
@@ -72,6 +71,7 @@ test.sh.x: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically link
 $ file random.sh.x.c
 test.sh.x.c: ASCII C program text
 ```
+
 ## References
 -   [http://www.datsi.fi.upm.es/~frosal/](http://www.datsi.fi.upm.es/~frosal/)
 -   [https://tecadmin.net/create-binary-file-from-shell-script/](https://tecadmin.net/create-binary-file-from-shell-script/)

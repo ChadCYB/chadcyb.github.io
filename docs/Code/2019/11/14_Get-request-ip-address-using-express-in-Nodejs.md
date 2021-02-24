@@ -26,6 +26,6 @@ var ip = req.headers['x-forward-for']
 Result:
 ![](https://1.bp.blogspot.com/-DB3Hm0PNOSU/XcsdaubRA5I/AAAAAAAAkjc/ZyFTEUATMJ4cdwQNio57R_DCmYvyrmGMACK4BGAYYCw/s1600/73210206_2973302966023897_4016467404480577536_n.jpeg)
 
-## Reference
+## References
 -   [stackoverflow - How to determine a user's IP address in node](https://stackoverflow.com/questions/8107856/how-to-determine-a-users-ip-address-in-node)
 -   [Work with HTTP headers in Express](https://flaviocopes.com/express-headers/)

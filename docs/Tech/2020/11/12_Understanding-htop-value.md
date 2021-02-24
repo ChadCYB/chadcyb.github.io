@@ -3,9 +3,9 @@ title: "Understanding htop value"
 date: 2020-11-12
 sidebar: 'auto'
 tags:
- - htop
+ - tools
  - server-management
- - ubuntu
+ - Ubuntu
 categories:
  - Tech
 publish: True
@@ -51,6 +51,6 @@ Htop has some very useful feature built-in to make one's life easier when workin
 - Display processes sorted by any htop column by pressing the 'F6' key
 - Display processes in a tree view by pressing the 'F5' key
 
-## Reference
+## References
 - [Understanding and using htop to monitor system resources](https://www.deonsworld.co.za/2012/12/20/understanding-and-using-htop-monitor-system-resources/)
 - [htop explained](https://peteris.rocks/blog/htop/)
