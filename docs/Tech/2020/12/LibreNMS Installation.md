@@ -185,7 +185,7 @@ cp /opt/librenms/librenms.nonroot.cron /etc/cron.d/librenms
 cp /opt/librenms/misc/librenms.logrotate /etc/logrotate.d/librenms
 ```
 ## Web Installer
-Go to http://<yourip>/install
+Go to http://yourip/install
 ```bash
 chown librenms:librenms /opt/librenms/config.php
 ```

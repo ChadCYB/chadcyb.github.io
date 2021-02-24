@@ -11,10 +11,8 @@ meta:
   - property: og:description
     content: You can block all andorid device and iphone thought this config...
   - property: og:image
-    content: https://i.imgur.com/i9g6Twj.jpg
+    content: https://i.imgur.com/0YJKdZ8.jpg
 ---
-
-![](https://i.imgur.com/i9g6Twj.jpg)
 
 You can block all andorid device and iphone thought this config, however it can't block ipad.
 ``` nginx
