@@ -113,5 +113,6 @@ if (strpos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false) {
  * The base configuration for WordPress
 
 ```
+## Reference
 - [Why does Nginx keep redirecting me to localhost?
 ](https://stackoverflow.com/questions/32712443/why-does-nginx-keep-redirecting-me-to-localhost)
