@@ -10,7 +10,7 @@ categories:
 publish: True
 meta:
   - property: og:description
-    content: 
+    content: This note is about how to dockerize the existing wordpress.
   - property: og:image
     content: https://i.imgur.com/98MBn2L.jpg
 ---
