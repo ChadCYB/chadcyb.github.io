@@ -15,7 +15,7 @@ meta:
     content: https://i.imgur.com/22a1mVc.jpg
 ---
 
-We often encounter all kinds of network architectures, Some are simply connected directly, some are behind other machines, and some are blocked by firewall that can't easily access it. This article show how to use ssh to connect in various situations.
+We often encounter all kinds of network architectures, some are simply connected directly, some are behind other machines, and some are blocked by firewall that can't easily access it. This article show how to use ssh to connect in various situations.
 
 
 ## Local Port Forwarding
@@ -26,7 +26,7 @@ We often encounter all kinds of network architectures, Some are simply connected
         - `localhost <--X-- remote server`
 ### Command
 Run following command on **localhsot**.
-```bash=
+``` bash
 ssh -L <local_port>:<target> <remote_server>
 ## Run in background
 ssh -NfL <local_port>:<target> <remote_server>
@@ -45,11 +45,11 @@ access remote server 22 port thought localhost 1022
 localhsot:1022 --> user@192.168.90.1 --> 192.168.90.1:22
 ```
 - Command
-```bash=
+``` bash
 ssh -NfL 1022:192.168.90.1:22 user@192.168.90.1
 ```
 Now you can access remote server thought localhost:1022
-```bash=
+``` bash
 ssh user@localhost -p 1022
 ```
 
@@ -59,7 +59,7 @@ access office web server(192.168.90.100) 80 port thought localhost 8080
 localhsot:8080 --> user@192.168.90.1 --> 192.168.90.100:80
 ```
 - Command
-```bash=
+``` bash
 ssh -NfL 8080:192.168.90.1:80 user@192.168.90.1
 ```
 Now you can access office web server by browsing `http://localhost:8080`.
@@ -73,7 +73,7 @@ Now you can access office web server by browsing `http://localhost:8080`.
         - `localhost <--X-- remote server`
 ### Command
 Run following command on **localhost**.
-```bash=
+``` bash
 ssh -R <remote_port>:<target> <remote_server>
 ## Run in background
 ssh -NfR <remote_port>:<target> <remote_server>
@@ -91,12 +91,12 @@ access localhost ssh thoght remote server 1022 port
 192.168.90.1:1022 -> localhsot --> localhsot:22
 ```
 - Command
-```bash=
+``` bash
 ## type on localhost
 ssh -NfR 1022:localhost:22 user@192.168.90.1
 ```
 Now you can access localhost ssh on remote server thought localhost:1022
-```bash=
+``` bash
 ## type on remote server
 ssh user@localhost -p 1022
 ```
@@ -107,7 +107,7 @@ access local proxy server `192.168.1.100:3128` thought remote server `192.168.90
 192.168.90.1:1234 -> localhsot --> 192.168.1.100:3128
 ```
 - Command
-```bash=
+``` bash
 ## type on localhost
 ssh -NfR 1234:192.168.90.100:3128 user@192.168.90.1
 ```
@@ -121,7 +121,7 @@ Now you can set up proxy on `localhost:1234` on remote server.
 localhost ==-all traffic-==> remote server ==> internet
 ```
 ### Command
-```bash=
+``` bash
 ssh -D 8080 user@remote.server
 ```
 ### Example 1
@@ -134,7 +134,7 @@ Remote Server: 192.168.90.1
 192.168.90.1:54321 --ssh tunnel--> localhost:54321 ==> internet
 ```
 
-```bash=
+``` bash
 ## Create proxy server on localhost:54321
 ssh -i /home/ubuntu/key.pem -f -N -D 54321 localhost
 ## Create a resever ssh to remote server
@@ -147,7 +147,7 @@ ssh -fNCR 54321:localhost:54321 user@192.168.90.1
 ---
 ## Executing a command on remote server
 - Easy for write in shell scirpt when you need runing command on remote server. 
-```bash=
+``` bash
 ssh <user>@<remote_server> -- <command>
 
 ## get remote server's apache error log
@@ -156,11 +156,11 @@ ssh user@192.168.9.1 -- cat /var/log/apache2/error.log | grep error | tee remote
 ---
 ## Postscript
 ### check ports in use linux
-```bash=
+``` bash
 sudo netstat -tulpn | grep LISTEN
 ```
 ### kill the ssh seesion
-```bash=
+``` bash
 sudo ps aux | grep ssh
 
 kill <PID>
@@ -168,7 +168,7 @@ kill <PID>
 ### Create ssh session without occupy a tty
 - `-nNT`
 
-```bash=
+``` bash
 ssh -nNT -L 9000:imgur.com:80 user@example.com
 ```
 - Arguments explained
@@ -184,6 +184,6 @@ ssh -nNT -L 9000:imgur.com:80 user@example.com
 - [gist - Port forwarding using SSH](https://gist.github.com/FMCorz/6f84985f96c5c7f9f4c9a73f31f79d21)
 - [sshuttle - A better ssh tunnel](https://dev.to/mrkaran/using-sshtunnel-2h24)
 
-```bash=
+``` bash
 sshuttle --dns --vr ubuntu@localhost 0/0 --ssh-cmd 'ssh -i ~/dct_key/dct.pem -p 10022'
 ```
