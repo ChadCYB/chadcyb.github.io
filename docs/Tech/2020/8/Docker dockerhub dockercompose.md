@@ -1,6 +1,6 @@
 ---
 title: "Install Docker, Dockerhub and docker-compose on ubuntu"
-date: 2020-11-25
+date: 2020-08-03
 sidebar: 'auto'
 tags:
  - docker
@@ -136,7 +136,7 @@ docker exec -it a3 /bin/sh
 - [Authenticate proxy with nginx](https://docs.docker.com/registry/recipes/nginx/)
 - [How to create your own private Docker registry and secure it](https://gabrieltanner.org/blog/docker-registry)
 
-## Reference
+## References
 - [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 - [How To Set Up a Private Docker Registry on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-docker-registry-on-ubuntu-18-04)
 - [ithome - 建立 private 的 Docker Registry](https://ithelp.ithome.com.tw/articles/10191213)

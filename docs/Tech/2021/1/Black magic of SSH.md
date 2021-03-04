@@ -17,7 +17,6 @@ meta:
 
 We often encounter all kinds of network architectures, some are simply connected directly, some are behind other machines, and some are blocked by firewall that can't easily access it. This article show how to use ssh to connect in various situations.
 
-
 ## Local Port Forwarding
 - Situation:
     - **access `remote server's network` on`loaclhost`**
@@ -144,6 +143,7 @@ ssh -fNCR 54321:localhost:54321 user@192.168.90.1
 - `-fN` run in background
 - `-D` create proxy server
 - `-R` create reverse tunnel
+
 ---
 ## Executing a command on remote server
 - Easy for write in shell scirpt when you need runing command on remote server. 
@@ -153,6 +153,7 @@ ssh <user>@<remote_server> -- <command>
 ## get remote server's apache error log
 ssh user@192.168.9.1 -- cat /var/log/apache2/error.log | grep error | tee remote.server.apache2.log
 ```
+
 ---
 ## Postscript
 ### check ports in use linux
@@ -176,7 +177,8 @@ ssh -nNT -L 9000:imgur.com:80 user@example.com
     - `-N` Do not execute a remote command. This is useful for just forwarding ports (protocol version 2 only).
     - `-T` Disable pseudo-terminal allocation.
 
-## Reference
+---
+## References
 - [反向建立 SSH Tunnel、免 VPN 連回公司](https://70tw.blogspot.com/2010/10/linux-ssh-tunnel-vpn.html)
 - [SSH Port Forwarding / Agent Forwarding](https://myapollo.com.tw/zh-tw/ssh-port-forwarding/)
 - [關於 SSH Tunnel 連線](https://yu-jack.github.io/2019/01/08/ssh-tunnel/)

@@ -78,5 +78,6 @@ services:
 networks:
   wpsite:
 ```
-## Reference
+
+## References
 - [Gist - bradtraversy/docker_wordpress.md](https://gist.github.com/bradtraversy/faa8de544c62eef3f31de406982f1d42)

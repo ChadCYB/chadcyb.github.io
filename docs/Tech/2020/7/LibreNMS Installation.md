@@ -29,6 +29,7 @@ dnf -y install nginx wget unzip
 ## Install other required packages
 dnf -y install bash-completion cronie fping git ImageMagick mariadb-server mtr net-snmp net-snmp-utils nginx nmap python3 python3-PyMySQL python3-redis python3-memcached python3-pip rrdtool unzip
 ```
+
 ## Install php7.4
 ``` bash
 dnf -y install dnf-utils http://rpms.remirepo.net/enterprise/remi-release-8.rpm
@@ -44,6 +45,7 @@ sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 # Check php version
 php -v
 ```
+
 ## Install LibreNMS
 ``` bash
 chown -R librenms:librenms /opt/librenms
@@ -62,6 +64,7 @@ vi /etc/php.ini
 ## set the system timezone
 timedatectl set-timezone Asia/Taipei
 ```
+
 ### Configure MariaDB
 ``` bash
 vi /etc/my.cnf.d/mariadb-server.cnf
@@ -81,6 +84,7 @@ GRANT ALL PRIVILEGES ON librenms.* TO 'librenms'@'localhost';
 FLUSH PRIVILEGES;
 exit
 ```
+
 ### Configure PHP-FPM
 ``` bash
 cp /etc/php-fpm.d/www.conf /etc/php-fpm.d/librenms.conf
@@ -135,6 +139,7 @@ setsebool -P httpd_can_sendmail=1
 setsebool -P httpd_execmem 1
 chcon -t httpd_sys_rw_content_t /opt/librenms/.env
 ```
+
 ### Allow fping
 ```bash
 cat <<EOF >http_fping.tt
@@ -184,13 +189,14 @@ cp /opt/librenms/librenms.nonroot.cron /etc/cron.d/librenms
 ```bash
 cp /opt/librenms/misc/librenms.logrotate /etc/logrotate.d/librenms
 ```
+
 ## Web Installer
 Go to http://yourip/install
 ```bash
 chown librenms:librenms /opt/librenms/config.php
 ```
 
-## Reference
+## References
 - [How to Install PHP 7.4, 7.3 & 7.2 on CentOS 8](https://tecadmin.net/install-php-centos8/)
 - [How to Install and Use PHP Composer on CentOS 8](https://linuxize.com/post/how-to-install-and-use-composer-on-centos-8/)
 - [How to install LibreNMS](https://docs.librenms.org/Installation/Install-LibreNMS/)

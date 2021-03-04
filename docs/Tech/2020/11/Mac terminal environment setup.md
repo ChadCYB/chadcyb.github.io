@@ -20,6 +20,7 @@ meta:
 ![](https://i.imgur.com/a0JnU5h.png)
 
 This is a note about how I setup my new mac's terminal environment:
+
 ## Powerline font
 Install [nerd-font](https://github.com/ryanoasis/nerd-fonts) or  [powerline font](https://github.com/powerline/fonts).
 - Nerd-font
@@ -87,7 +88,7 @@ cp .tmux/.tmux.conf.local .
 tmux source-file ~/.tmux.conf
 ```
 
-## Reference
+## References
 - [Github - nerd-font](https://github.com/ryanoasis/nerd-fonts)
 - [Github - powerline font](https://github.com/powerline/fonts)
 - [超簡單！十分鐘打造漂亮又好用的 zsh command line 環境](https://medium.com/statementdog-engineering/prettify-your-zsh-command-line-prompt-3ca2acc967f)

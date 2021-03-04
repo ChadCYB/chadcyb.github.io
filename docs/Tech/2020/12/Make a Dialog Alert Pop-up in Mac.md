@@ -50,6 +50,6 @@ osascript -e 'tell app "System Events" to display dialog "CONTENT" with title "T
 osascript -e 'tell app "System Events" to display notification "NOTIFICATION_TITLE" with title "TITLE_NAME" subtitle "SUBTITLE_NAME" sound name "Frog"'
 ```
 
-## Reference
+## References
 - [How to Trigger an Alert Dialog Pop-Up from Command Line in Mac OS](https://osxdaily.com/2016/09/06/trigger-alert-dialog-mac-via-command-line/)
 - [AppleScript Language Guide - dispaly dialog](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/reference/ASLR_cmds.html#//apple_ref/doc/uid/TP40000983-CH216-SW12)

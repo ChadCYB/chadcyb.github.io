@@ -25,5 +25,5 @@ You can block all andorid device and iphone thought this config, however it can'
       set $mobile_rewrite perform;
     }
 ```
-## Reference
+## References
 - [nginx-判斷裝置顯示不同網頁的方法](https://blog.toright.com/posts/4303/nginx-%E5%88%A4%E6%96%B7%E8%A3%9D%E7%BD%AE%E9%A1%AF%E7%A4%BA%E4%B8%8D%E5%90%8C%E7%B6%B2%E9%A0%81%E7%9A%84%E6%96%B9%E6%B3%95.html)

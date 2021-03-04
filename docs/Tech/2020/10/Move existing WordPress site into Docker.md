@@ -18,6 +18,7 @@ meta:
 ![](https://i.imgur.com/98MBn2L.jpg)
 
 This note is about how to dockerize the existing wordpress.
+
 ## Backup the entire website
 1. Compress the entire website folder
 ``` bash
@@ -113,6 +114,6 @@ if (strpos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false) {
  * The base configuration for WordPress
 
 ```
-## Reference
+## References
 - [Why does Nginx keep redirecting me to localhost?
 ](https://stackoverflow.com/questions/32712443/why-does-nginx-keep-redirecting-me-to-localhost)

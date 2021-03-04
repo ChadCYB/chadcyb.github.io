@@ -36,5 +36,6 @@ timedatectl list-timezones
 sudo timedatectl set-timezone Asia/Taipei
 timedatectl
 ```
-## Reference:
+
+## References:
 - [how to set or change timezone in linux](https://linuxize.com/post/how-to-set-or-change-timezone-in-linux/)

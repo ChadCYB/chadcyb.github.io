@@ -57,7 +57,7 @@ open terminal
 ls -lO /System /usr
 ```
 
-## Reference
+## References
 - [About System Integrity Protection on your Mac
 ](https://support.apple.com/en-us/HT204899)
 - [Mac disable System Integrity Protection (SIP)](https://blog.developer.money/%E9%97%9C%E9%96%89-mac-%E7%9A%84-sip-system-integrity-protection-8f679c4fdd9e)
