@@ -1,6 +1,6 @@
 ---
 title: "Nginx Block Mobile / Smart Phone Traffic"
-date: 2020-10-21
+date: 2020-07-10
 sidebar: 'auto'
 tags:
  - nginx

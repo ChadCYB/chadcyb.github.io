@@ -1,6 +1,6 @@
 ---
 title: "Make a Dialog Alert Pop-up in Mac via terminal"
-date: 2021-1-10
+date: 2020-12-17
 sidebar: 'auto'
 tags:
  - mac

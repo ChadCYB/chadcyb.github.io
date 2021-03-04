@@ -1,6 +1,6 @@
 ---
 title: "Runing Wordpress on docker"
-date: 2020-12-11
+date: 2020-10-12
 sidebar: 'auto'
 tags:
  - wordpress

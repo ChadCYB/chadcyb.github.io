@@ -1,6 +1,6 @@
 ---
 title: "Move existing WordPress site into Docker"
-date: 2020-12-12
+date: 2020-10-20
 sidebar: 'auto'
 tags:
  - wordpress
