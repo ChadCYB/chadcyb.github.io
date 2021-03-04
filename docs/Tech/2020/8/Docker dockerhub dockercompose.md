@@ -114,7 +114,7 @@ docker container run -d \
   -p 9000:9000 \
   -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
 ```
-Setup Detail: [I'll write another post]()
+Setup Detail: [Docker monitor - portainer](https://cyb.tw/docs/Tech/2020/8/Docker%20monitor%20portainer.html#portainer-local-host)
 
 ## Terminal in to Docker
 ``` bash
