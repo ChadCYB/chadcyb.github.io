@@ -3,8 +3,8 @@ title: "Python virtual environment on windows"
 date: 2020-10-15
 sidebar: 'auto'
 tags:
- - Windows
  - Python
+ - Windows
 categories:
  - Code
 publish: True

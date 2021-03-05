@@ -4,8 +4,9 @@ date: 2020-08-04
 sidebar: 'auto'
 tags:
  - docker
- - ubuntu
+ - Ubuntu
  - server-management
+ - monitoring
 categories:
  - Tech
 publish: True

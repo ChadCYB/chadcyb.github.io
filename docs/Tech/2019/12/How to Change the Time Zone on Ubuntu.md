@@ -3,8 +3,8 @@ title: "How to change the timezone on Ubuntu"
 date: 2019-12-04
 sidebar: 'auto'
 tags:
- - Linux
  - Ubuntu
+ - Linux
 categories:
  - Tech
 publish: True

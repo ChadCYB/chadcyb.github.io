@@ -4,7 +4,7 @@ date: 2020-08-03
 sidebar: 'auto'
 tags:
  - docker
- - ubuntu
+ - Ubuntu
  - server-management
 categories:
  - Tech
