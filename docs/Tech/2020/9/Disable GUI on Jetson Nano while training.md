@@ -1,5 +1,5 @@
 ---
-title: "Disable gui on Jetson Nano while training"
+title: "Disable GUI on Jetson Nano while training"
 date: 2020-08-05
 sidebar: 'auto'
 tags:

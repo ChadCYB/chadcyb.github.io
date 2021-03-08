@@ -1,5 +1,5 @@
 ---
-title: "navicat KeygenTools"
+title: "How to use Navicat KeygenTools on Ubuntu"
 date: 2020-12-22
 sidebar: 'auto'
 tags:
@@ -59,7 +59,7 @@ make all
 ## You will see executable files in bin/ directory.
 ```
 ### References
-- https://stackoverflow.com/questions/46008624/how-to-fix-fatal-error-openssl-opensslv-h-no-such-file-or-directory-in-redhat
+- [stackoverflow - How to fix: fatal error: openssl/opensslv.h: No such file or directory](https://stackoverflow.com/questions/46008624/how-to-fix-fatal-error-openssl-opensslv-h-no-such-file-or-directory-in-redhat)
 
 ## Build navicat AppImage
 ``` bash
@@ -80,8 +80,8 @@ sudo umount ~/navicat15/mount_AppImage
 rm -rf ~/navicat15/mount_AppImage
 ```
 ### References
-- https://github.com/HeQuanX/navicat-keygen-tools/releases
-- https://superuser.com/questions/1301583/how-can-i-extract-files-from-an-appimage
+- [Github - navicat-keygen-tools](https://github.com/HeQuanX/navicat-keygen-tools/releases)
+- [superuser - how can i extract files from an appimage](https://superuser.com/questions/1301583/how-can-i-extract-files-from-an-appimage)
 
 ## Use navicat-patcher to replace the official public key
 ``` bash

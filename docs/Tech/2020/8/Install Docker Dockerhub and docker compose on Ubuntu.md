@@ -1,5 +1,5 @@
 ---
-title: "Install Docker, Dockerhub and docker-compose on ubuntu"
+title: "Install Docker, Dockerhub and docker-compose on Ubuntu"
 date: 2020-08-03
 sidebar: 'auto'
 tags:

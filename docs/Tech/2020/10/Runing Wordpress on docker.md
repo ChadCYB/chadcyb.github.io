@@ -1,5 +1,5 @@
 ---
-title: "Runing Wordpress on docker"
+title: "Runing Wordpress on Docker"
 date: 2020-10-12
 sidebar: 'auto'
 tags:

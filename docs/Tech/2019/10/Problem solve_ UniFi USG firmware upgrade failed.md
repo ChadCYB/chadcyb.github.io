@@ -47,4 +47,5 @@ Modify the upgrade program in the device:
 ![](https://4.bp.blogspot.com/-cGEsWvVVOPk/XcsTpd8lPtI/AAAAAAAAki4/7lM0eSo5fDUVAd6GUR0h8UWImgxrep0ZQCK4BGAYYCw/s1600/Screen%2BShot%2B2019-11-13%2Bat%2B4.18.41%2BAM.png)
 6. Then hit `:wq` and hit `enter` on the keyboard. 
 7. Finally, wait for a while, then upgrade success.
+ 
  ![](https://4.bp.blogspot.com/-t0FUiIz40mk/XcsSwtfwK8I/AAAAAAAAkis/5WZw53jFXtwn4NPLj5xM8Vl7L8uRLTEmwCK4BGAYYCw/s400/Screen%2BShot%2B2019-11-13%2Bat%2B4.14.47%2BAM.png)

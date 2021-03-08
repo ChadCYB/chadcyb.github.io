@@ -1,6 +1,6 @@
 ---
 title: "Black magic of SSH"
-date: 2021-1-08
+date: 2021-01-08
 sidebar: 'auto'
 tags:
  - ssh

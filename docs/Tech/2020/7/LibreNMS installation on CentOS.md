@@ -1,10 +1,11 @@
 ---
-title: "LibreNMS Installation"
+title: "LibreNMS installation on CentOS"
 date: 2020-07-18
 sidebar: 'auto'
 tags:
  - monitoring
  - LibreNMS
+ - CentOS
 categories:
  - Tech
 publish: True
