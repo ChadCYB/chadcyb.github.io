@@ -14,6 +14,7 @@ meta:
   - property: og:image
     content: https://i.imgur.com/3i1ey1B.jpg
 ---
+
 ![](https://i.imgur.com/3i1ey1B.jpg)
 
 In this article, we are going to show how to create and manage tags associated with the Docker images, and how to push a docker image to our private Docker Hub.

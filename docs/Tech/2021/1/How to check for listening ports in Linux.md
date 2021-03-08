@@ -3,9 +3,9 @@ title: "How to check for listening ports in Linux"
 date: 2021-01-12
 sidebar: 'auto'
 tags:
+ - Network
  - Ubuntu
  - Linux
- - Network
  - server-management
 categories:
  - Tech

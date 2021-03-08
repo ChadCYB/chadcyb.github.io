@@ -11,12 +11,14 @@ categories:
 publish: True
 meta:
   - property: og:description
-    content: XXX
+    content: As the services that need to be managed become more and more complicated, so I started to dockerize all the projects around me...
   - property: og:image
     content: https://i.imgur.com/jaMH25J.jpg
 ---
 
 ![](https://i.imgur.com/jaMH25J.jpg)
+
+As the services that need to be managed become more and more complicated, so I started to dockerize all the projects around me. This articale shows how to install docker things on ubuntu.
 
 ## Install docker
 Set up the repository:

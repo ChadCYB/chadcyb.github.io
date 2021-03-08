@@ -1,6 +1,6 @@
 ---
 title: "Disable GUI on Jetson Nano while training"
-date: 2020-08-05
+date: 2020-09-19
 sidebar: 'auto'
 tags:
  - jetson-nano

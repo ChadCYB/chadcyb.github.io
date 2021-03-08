@@ -10,12 +10,14 @@ categories:
 publish: True
 meta:
   - property: og:description
-    content: Thanks to the askubuntu, here's the solution which I have changed and added to...
+    content: I have a set of old airpod 1 can be used as a headset for the ubuntu pc, but the...
   - property: og:image
     content: https://i.imgur.com/peKvKWI.jpg
 ---
 
 ![](https://i.imgur.com/peKvKWI.jpg)
+
+I have a set of old airpod 1 can be used as a headset for the ubuntu pc, but the ubuntu pc has some problems connecting with it.
 
 Thanks to the askubuntu, here's the solution which I have changed and added to:
 

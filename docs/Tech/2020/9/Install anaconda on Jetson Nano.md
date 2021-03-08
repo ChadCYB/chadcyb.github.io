@@ -1,6 +1,6 @@
 ---
 title: "Install anaconda on Jetson Nano"
-date: 2020-08-04
+date: 2020-09-18
 sidebar: 'auto'
 tags:
  - jetson-nano

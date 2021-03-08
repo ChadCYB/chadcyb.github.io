@@ -18,7 +18,7 @@ meta:
 ![](https://i.imgur.com/Pe2MAgv.jpg)
 
 ## Problem
-I upgraded the wifi equipment and replaced it with the UniFi Series products a few days ago.  UniFi Controller can manage all the UniFi devices through the browser, it is very easy to use.  However, I got a problem while upgrading the USG to the newer firmware.  
+I upgraded the wifi equipment and replaced it with the UniFi Series products a few days ago. UniFi Controller can manage all the UniFi devices through the browser, it is very easy to use.  However, I got a problem while upgrading the USG to the newer firmware.  
 
 There are  [several ways](https://help.ubnt.com/hc/en-us/articles/204910064-UniFi-Changing-the-Firmware-of-a-UniFi-Device)  the upgrade the firmware:  
 
