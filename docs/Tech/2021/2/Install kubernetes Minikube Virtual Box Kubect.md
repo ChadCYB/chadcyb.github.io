@@ -1,5 +1,5 @@
 ﻿---
-title: "Install kubernetes (Minikube, Virtual Box, Kubect) on Ubuntu"
+title: "Install kubernetes (Minikube, Virtual Box, Kubectl) on Ubuntu"
 date: 2021-02-13
 sidebar: 'auto'
 tags:

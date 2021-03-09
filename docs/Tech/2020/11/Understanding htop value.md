@@ -5,7 +5,7 @@ sidebar: 'auto'
 tags:
  - htop
  - server-management
- - ubuntu
+ - Ubuntu
 categories:
  - Tech
 publish: True
