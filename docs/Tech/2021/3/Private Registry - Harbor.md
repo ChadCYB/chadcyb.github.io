@@ -1,5 +1,5 @@
 ﻿---
-title: "Private Registry - Harbor"
+title: "Private registry - Harbor"
 date: 2021-03-03
 sidebar: 'auto'
 tags:
@@ -136,7 +136,7 @@ If the Harbor service occur error, you can try to restart it. Your image data re
 docker-compose down -v
 ```
 - Restart Harbor
-```
+``` bash
 docker-compose up -d
 ```
 
