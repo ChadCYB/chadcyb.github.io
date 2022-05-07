@@ -114,6 +114,9 @@ module.exports = {
   },
   plugins: [
     'reading-progress',
+    ["sitemap", {
+      'hostname': 'https://cyb.tw/'
+    }],
     ["disqus", {
       "shortname": "cyb-note"
     }],
@@ -132,4 +135,4 @@ module.exports = {
       }
     }]
   ]
-}  
+}
