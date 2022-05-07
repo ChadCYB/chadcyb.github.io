@@ -120,6 +120,9 @@ module.exports = {
     ["@vuepress/google-analytics", {
       'ga': 'UA-84146570-3' // UA-00000000-0
     }],
+    ["vuepress-plugin-google-gtag", {
+      'ga': 'G-1CV0QVHQND' // GA4
+    }],
     ['@vuepress/last-updated', {
       dateOptions:{
         hour12: false
